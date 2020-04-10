@@ -15,6 +15,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'core',
+    'crispy_forms',
+    'django_countries',
     # allauth copied
     'django.contrib.sites',
 
@@ -91,3 +93,8 @@ AUTHENTICATION_BACKENDS = (
 )
 
 SITE_ID = 1
+
+# Crispy forms
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+STRIPE_SECRET_KEY = '05sgp9!deqdjdal=q1nltm@^^2cc+v29i(tyybv3v2t77qi66czazj'
