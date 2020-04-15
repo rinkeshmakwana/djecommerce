@@ -97,4 +97,4 @@ SITE_ID = 1
 # Crispy forms
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
-STRIPE_SECRET_KEY = '05sgp9!deqdjdal=q1nltm@^^2cc+v29i(tyybv3v2t77qi66czazj'
+STRIPE_SECRET_KEY = 'sk_test_4eC39HqLyjWDarjtT1zdp7dc'
